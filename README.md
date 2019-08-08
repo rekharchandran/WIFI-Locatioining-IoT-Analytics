@@ -3,7 +3,7 @@
 GPS based location estimation is quite popular. Mobile device, smart-phone, i-phone are utilizing GPS receivers for location estimation. It, however, does not work for indoor environments because of the fact that GPS satellite signals cannot be received in indoor environments. Therefore, automatic user localization has been a hot research topic in the last years. Automatic user localization consists of estimating the position of the user (latitude, longitude and altitude) by using an electronic device, usually a mobile phone. The approach covered in this project known as fingerprinting uses a training set of particular positions in a building and the corresponding signal strength from any and all WAP’s in the vicinity. In this way, a ‘fingerprint’ of WAP signal strength is produced for each position in a building. One challenge to this approach is that the received signal strength can vary based on the phone brand and model, and the position of the phone (i.e. the height of phone owner).
 
 ### Objective
-To investigate classification & regression models to predict the location (building, floor, latitudes and longitudes) on the multi-building of Jaume University.
+To investigate classification & regression models to predict the location (building, floor, latitudes and longitudes) on the multi-building of Jaume University in Spain.
 
 ### General Overview of the Data
 
