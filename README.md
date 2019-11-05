@@ -4,7 +4,7 @@ GPS based location estimation is quite popular. Mobile device, smart-phone, i-ph
 
 ### Objective
 
-
+To investigate classification & regression models to predict the location (building, floor, latitudes and longitudes) on the multi-building of Jaume University in Spain.
 ### General Overview of the Data
 
 •	The database consists of 19937 training/reference records which were generated with an Android application called CaptureLoc.
