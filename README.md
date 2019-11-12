@@ -15,7 +15,7 @@ To investigate classification & regression models to predict the location (build
 •	The positive value 100 is used to denote when a WAP was not detected.
 
 ### Preprocessing of the Data
-The first thing we’ll do is convert all our features to numeric data types. This results in a matrix which we’ll then convert back into a tibble. Then removed the variable that contain +100dBm from rows and columns. Finally, we will address the many missing values in the data set which are currently a placeholder for the absence of a signal from a WAP. The values for the signal range from -104 to 0 dBm with 0 being the strongest signal and -104 being the weakest. The original data set used the value of +100 to code for the absence of signal. However, we’ll use a value of -110 dBm to represent no signal from a WAP as it corresponds to a signal that is weaker than any WAP signal in the data set.
+
 
 ### Intial Exploration of the Data
 We can also visualize how the number of WAPs detected varies across the 3 buildings and across floors. The boxplot below shows the distribution of WAPs across the buildings. Building 3 has the highest median detected WAPs whereas Building 0 and 1 appear to have similar medians. The distribution in building 1 also reaches to the lower end of WAPs detected relative to the other buildings.
