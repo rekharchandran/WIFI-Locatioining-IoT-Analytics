@@ -24,6 +24,7 @@ We can also visualize how the number of WAPs detected varies across the 3 buildi
 We can use the latitude and longitude data in the data set to plot the location reference points of each building by floor
 
 ### Building Predictive Models
+After cleaning and visualization of the data removed the attributes that won’t be needed in a predictive model. Used the train Control function to setup many parameters used in the model fitting. The method argument sets the resampling technique which in this case is repeated cross validation (CV) or repeated cv. The number argument sets the number of folds in the k-fold-CV which will then be repeated 3 times. The allow Parallel argument allows to take advantage of R’s parallel processing capabilities. The final parameter allows us to reproducibly set the seed for work going on during parallel processing.
 
 The KNN, C50, Random forest and svm models were used for the classification. For the regression the models used were KNN, Random forest and SVM.
 
