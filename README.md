@@ -43,7 +43,7 @@ Looking at the model output we can see that the KNN algorithms provided a good p
 
 ### Summary
 
-In summary, we’ve used the UJIIndoorLoc data set of Wi-Fi fingerprints to train and compare several classification models. Based on the kind of prediction (building, floor or latitude/longitude), the best variables for building these predictions change. The model has an error of 8.39 m predicting longitude and predicting latitude.
+In summary, we have used the UJIIndoorLoc data set of Wi-Fi fingerprints to train and compare several classification models. Based on the kind of prediction (building, floor or latitude/longitude), the best variables for building these predictions change. The model has an error of 8.39 m predicting longitude and predicting latitude.
 
 
 
